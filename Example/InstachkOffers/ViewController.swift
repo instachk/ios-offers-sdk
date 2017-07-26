@@ -7,18 +7,45 @@
 //
 
 import UIKit
+import InstachkOffers
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
+    
+    var locationManager: CLLocationManager!
+    
+    
+    // gcloud partner key
+    let PARTNER_KEY = "f92b5ef55b80407883f7e6a3c6caccd9"
 
+    @IBOutlet weak var adViewContainer: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        locationManager = CLLocationManager()
+        locationManager.delegate = self
+        locationManager.requestAlwaysAuthorization()
     }
-
+    
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        if status == .authorizedAlways {
+            
+            // initialize the instachk offers only after location permissions are granted
+            Advertisement.init(container: self.adViewContainer, partnerKey: self.PARTNER_KEY)
+        }
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
 }
 

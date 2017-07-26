@@ -1,25 +1,59 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="InstachkOffers_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_capitastar.png" translatesAutoresizingMaskIntoConstraints="NO" id="wFo-ON-WC5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ktM-5V-D9B">
+                                <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="D3X-Oj-gO2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wFo-ON-WC5" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="4oS-qb-tgL"/>
+                            <constraint firstAttribute="trailing" secondItem="wFo-ON-WC5" secondAttribute="trailing" id="7yj-Ra-dIV"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ktM-5V-D9B" secondAttribute="bottom" id="Kdj-Gp-rgq"/>
+                            <constraint firstItem="wFo-ON-WC5" firstAttribute="trailing" secondItem="ktM-5V-D9B" secondAttribute="trailing" id="MVs-nd-6Yf"/>
+                            <constraint firstItem="ktM-5V-D9B" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="VgX-0h-kOz"/>
+                            <constraint firstItem="wFo-ON-WC5" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="ZhU-jx-fla"/>
+                            <constraint firstItem="wFo-ON-WC5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="mj9-R4-gxr"/>
+                            <constraint firstItem="wFo-ON-WC5" firstAttribute="leading" secondItem="ktM-5V-D9B" secondAttribute="leading" id="zZM-wC-bHo"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="adViewContainer" destination="ktM-5V-D9B" id="ums-29-jrb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="34.5" y="36.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg_capitastar.png" width="1080" height="1863"/>
+    </resources>
 </document>

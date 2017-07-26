@@ -1,0 +1,19 @@
+PODS:
+  - InstachkOffers (0.1.0):
+    - Starscream (~> 2.0.3)
+  - Starscream (2.0.4)
+
+DEPENDENCIES:
+  - InstachkOffers (from `../`)
+
+EXTERNAL SOURCES:
+  InstachkOffers:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InstachkOffers: dd23b8b261b03400e426f4311c0a4415c0207b4d
+  Starscream: df5974ee928b157c8eda8af8de7c620276b7dfcc
+
+PODFILE CHECKSUM: c29b413a0c6ac2f9922ef8b4cc80fe27731da3a6
+
+COCOAPODS: 1.2.1
