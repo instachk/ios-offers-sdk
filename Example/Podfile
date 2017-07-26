@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'InstachkOffers_Example' do
+  pod 'InstachkOffers', :path => '../'
+
+  target 'InstachkOffers_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
