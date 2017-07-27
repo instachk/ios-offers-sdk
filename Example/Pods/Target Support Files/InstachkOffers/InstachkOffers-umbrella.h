@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "InstachkOffers.h"
 
 FOUNDATION_EXPORT double InstachkOffersVersionNumber;
 FOUNDATION_EXPORT const unsigned char InstachkOffersVersionString[];

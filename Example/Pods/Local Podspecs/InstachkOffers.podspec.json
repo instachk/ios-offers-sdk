@@ -3,20 +3,20 @@
   "version": "0.1.0",
   "summary": "Instachk SDK to render nearby offers",
   "description": "Instachk offers SDK lets you display nearby offers",
-  "homepage": "https://github.com/ravi8x/InstachkOffers",
+  "homepage": "https://github.com/instachk/ios-offers-sdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ravi8x@gmail.com": "ravi8x@gmail.com"
+    "InstaChk": "contact@instachk.today"
   },
   "source": {
-    "git": "https://github.com/ravi8x/InstachkOffers.git",
+    "git": "git@github.com:instachk/ios-offers-sdk.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.3"
   },
   "source_files": "InstachkOffers/Classes/**/*",
   "dependencies": {

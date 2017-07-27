@@ -9,48 +9,48 @@
 /* Begin PBXBuildFile section */
 		078BAA3272E77AC02FC6965C7E60AC17 /* Pods-InstachkOffers_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA968B599A40A516D22EBD27303D06 /* Pods-InstachkOffers_Tests-dummy.m */; };
 		0855EEF05C3F945E0523FF1BE5D39731 /* Pods-InstachkOffers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD96CEF6893AB7597E20C9CF6924E61 /* Pods-InstachkOffers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F0B83909D3A85FF5346CBF027F712B1 /* MessageListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FD11F333370AB418B94DEDF49A3BB /* MessageListener.swift */; };
 		10854C6BC4BC8F3B8177B4BD019B438A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		1E92DE0D856A340148AE64143B4C01F7 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0ED5408096F7CF564991C1296C806 /* WebSocket.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		29FB7A5EEF0EC6128D0EDEF2E8BD1488 /* InstachkOffers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4C12FD6833A24C152399ACB78FC74D /* InstachkOffers-dummy.m */; };
-		32C080FE9D5E0A6DEF438CA9F46BEAB6 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B8967159B41F65D5A2C4E57DEFF5BB /* Starscream-dummy.m */; };
-		41F8FBCE1F286F1B004D6F60 /* Advertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8FBC71F286F1B004D6F60 /* Advertisement.swift */; };
-		41F8FBCF1F286F1B004D6F60 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8FBC81F286F1B004D6F60 /* Extensions.swift */; };
-		41F8FBD01F286F1B004D6F60 /* AdDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8FBCA1F286F1B004D6F60 /* AdDialogViewController.swift */; };
-		41F8FBD11F286F1B004D6F60 /* InstachkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8FBCB1F286F1B004D6F60 /* InstachkService.swift */; };
-		41F8FBD21F286F1B004D6F60 /* MessageListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8FBCC1F286F1B004D6F60 /* MessageListener.swift */; };
-		41F8FBD31F286F1B004D6F60 /* InstachkOffers.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F8FBCD1F286F1B004D6F60 /* InstachkOffers.h */; };
-		41F8FBD81F28818C004D6F60 /* AdDialogViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 41F8FBC91F286F1B004D6F60 /* AdDialogViewController.xib */; };
-		4AC355EF3E94689F14D0A46F0A5B114D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		5AD56724DB9C70269EA10DAB3880134B /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA7A388E564608E0E0604AA278356DD /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EB429CB423E643F918DBC7A80CA9D90 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F52249DD4D3DD3159B64A42F2E7349B /* Starscream.framework */; };
-		79CCCA1299F71D89FB965C8D32D81894 /* InstachkOffers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A54DDED72CE517073350366DB42F8E5 /* InstachkOffers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9EA15E15A04BB132F6073A2806E7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		577EF9D6248D2F178ABAAAF29782E7B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		7007C3CEAED4C5EEE82DEA27D9AB3D93 /* AdDialogViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = F25EE6B8EA00DF5A69ABD2C6A025BC0D /* AdDialogViewController.xib */; };
+		72BB20512AC0D1A0726CA799A991F36E /* InstachkOffers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A54DDED72CE517073350366DB42F8E5 /* InstachkOffers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E9A1D42768274DD4D9C50CC7B998A5 /* InstachkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083840DCC86AD24C959C214BC7EBB74 /* InstachkService.swift */; };
 		7EED26B07FDCD513922889597CF9B5BD /* Pods-InstachkOffers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4AEE6C0EEC3C020884CBEF2272A83EB /* Pods-InstachkOffers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80273AC808B60D75B609D0F226DDA0CB /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F52249DD4D3DD3159B64A42F2E7349B /* Starscream.framework */; };
 		8CA165D8776668AFC80BD8E386B8D529 /* Pods-InstachkOffers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A2EB75BBAAA4B7134B1FA42689B29B /* Pods-InstachkOffers_Example-dummy.m */; };
+		94AC3D855E06EBDE5EA62ADE21ED97C0 /* InstachkOffers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4C12FD6833A24C152399ACB78FC74D /* InstachkOffers-dummy.m */; };
+		9AFA258EB2F567C8CB3217D31FCDF74C /* InstachkOffers.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AF65AFB409DD59ABB7065056C2940C /* InstachkOffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FFD7B13ED80AE8858570E725B3D7900 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0ED5408096F7CF564991C1296C806 /* WebSocket.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A1DCD85A8B91DF79C28D7525FB9BD25A /* Advertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104143BAE3AF3137B63A416BA58FD14E /* Advertisement.swift */; };
+		A3F461BF2B853F8EA939AF859D79C634 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349D9A6402E1B38E9321E2B0154F707 /* Extensions.swift */; };
+		A8E8C2A596CF9BCAABD6BA412E46A0F4 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99096DE2BFEA77B075F7FAAAEDCCF8CD /* SSLSecurity.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B608A92CB77B700DFD7BCECB3239CA27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		E2361CD79F5A7E0BCAECA630056AD860 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99096DE2BFEA77B075F7FAAAEDCCF8CD /* SSLSecurity.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F24BB0ABC31929225ABC45B0FCB6F726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		CF5FE71480F06163706E94B4C134DC3C /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B8967159B41F65D5A2C4E57DEFF5BB /* Starscream-dummy.m */; };
+		D74CF852BC289AF0A66CF0AC63482F94 /* AdDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B336EDA95C2FE561635CB0095BF4E /* AdDialogViewController.swift */; };
+		DD4C9D4CD344DC62622F7BE27373C3E5 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA7A388E564608E0E0604AA278356DD /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		938EC0033C5DF75140C986B3EBFD8065 /* PBXContainerItemProxy */ = {
+		05EF4ECFEC890437918532C96295955E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D760290E4CC4EA8B2592D095368E3764;
+			remoteGlobalIDString = 5AFA383A75463CEFC8D333C16C9493DA;
 			remoteInfo = Starscream;
 		};
 		9E3D8286D3E120D594477977544D0769 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D760290E4CC4EA8B2592D095368E3764;
+			remoteGlobalIDString = 5AFA383A75463CEFC8D333C16C9493DA;
 			remoteInfo = Starscream;
 		};
 		AC153ED17726229D83E0CE0EEFEC5CAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 692D1C050B8A8EF1DE83380777AB2773;
+			remoteGlobalIDString = 6584A195793896489AC7D8A9750CC2E5;
 			remoteInfo = InstachkOffers;
 		};
 /* End PBXContainerItemProxy section */
@@ -58,52 +58,52 @@
 /* Begin PBXFileReference section */
 		0CDC5304EE5E34F1B6488A601821ED82 /* Pods-InstachkOffers_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstachkOffers_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0F52249DD4D3DD3159B64A42F2E7349B /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		104143BAE3AF3137B63A416BA58FD14E /* Advertisement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Advertisement.swift; sourceTree = "<group>"; };
 		1B43E93F36CD100A9BEBA9F638010DE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FBEFD087C661E06592448558B79698A /* Pods-InstachkOffers_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstachkOffers_Tests-resources.sh"; sourceTree = "<group>"; };
 		1FD96CEF6893AB7597E20C9CF6924E61 /* Pods-InstachkOffers_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstachkOffers_Example-umbrella.h"; sourceTree = "<group>"; };
 		2589D73D3126BEAE801689038B0FC766 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AA891A0A290EA2EFC5322331DC4525C /* Pods-InstachkOffers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstachkOffers_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		41F8FBC71F286F1B004D6F60 /* Advertisement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Advertisement.swift; sourceTree = "<group>"; };
-		41F8FBC81F286F1B004D6F60 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		41F8FBC91F286F1B004D6F60 /* AdDialogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdDialogViewController.xib; sourceTree = "<group>"; };
-		41F8FBCA1F286F1B004D6F60 /* AdDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDialogViewController.swift; sourceTree = "<group>"; };
-		41F8FBCB1F286F1B004D6F60 /* InstachkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstachkService.swift; sourceTree = "<group>"; };
-		41F8FBCC1F286F1B004D6F60 /* MessageListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageListener.swift; sourceTree = "<group>"; };
-		41F8FBCD1F286F1B004D6F60 /* InstachkOffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstachkOffers.h; sourceTree = "<group>"; };
 		48F7CDF2B5396A449FA9E7AF18585EDB /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
-		4C724669108AEFE634BE8F1EC4BD101B /* Pods_InstachkOffers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstachkOffers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5357B0FDDD7191AB1DB0ED37A7B4F5BA /* InstachkOffers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = InstachkOffers.modulemap; sourceTree = "<group>"; };
+		4C724669108AEFE634BE8F1EC4BD101B /* Pods_InstachkOffers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InstachkOffers_Example.framework; path = "Pods-InstachkOffers_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AF65AFB409DD59ABB7065056C2940C /* InstachkOffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = InstachkOffers.h; sourceTree = "<group>"; };
+		5349D9A6402E1B38E9321E2B0154F707 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5357B0FDDD7191AB1DB0ED37A7B4F5BA /* InstachkOffers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = InstachkOffers.modulemap; sourceTree = "<group>"; };
 		5B220DE9811768A33367A37972807704 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		642BF346982A2FF76B2E8F23610FE040 /* Pods-InstachkOffers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InstachkOffers_Example.modulemap"; sourceTree = "<group>"; };
+		642BF346982A2FF76B2E8F23610FE040 /* Pods-InstachkOffers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-InstachkOffers_Example.modulemap"; sourceTree = "<group>"; };
 		675027A90E0F2275E4993501472162E9 /* Pods-InstachkOffers_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstachkOffers_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A54DDED72CE517073350366DB42F8E5 /* InstachkOffers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstachkOffers-umbrella.h"; sourceTree = "<group>"; };
 		6E3962196A523F3AED87B29573EEA202 /* Pods-InstachkOffers_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstachkOffers_Example-resources.sh"; sourceTree = "<group>"; };
-		74A0DCF79A3250F5089B190DF2521271 /* InstachkOffers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstachkOffers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A0DCF79A3250F5089B190DF2521271 /* InstachkOffers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InstachkOffers.framework; path = InstachkOffers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B8967159B41F65D5A2C4E57DEFF5BB /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
 		8B243CC81DC02ACD446D0DBB4D62DF29 /* InstachkOffers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstachkOffers-prefix.pch"; sourceTree = "<group>"; };
 		902507A96FEE30E3658AEAE83DD7BCA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9083840DCC86AD24C959C214BC7EBB74 /* InstachkService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InstachkService.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99096DE2BFEA77B075F7FAAAEDCCF8CD /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
 		99A2EB75BBAAA4B7134B1FA42689B29B /* Pods-InstachkOffers_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstachkOffers_Example-dummy.m"; sourceTree = "<group>"; };
 		9A71011DB56E7C17436B3DF47A8BB54F /* Pods-InstachkOffers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstachkOffers_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9EEA968B599A40A516D22EBD27303D06 /* Pods-InstachkOffers_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstachkOffers_Tests-dummy.m"; sourceTree = "<group>"; };
-		A01EBF9E6B313CEF90CC123EC37A490C /* Pods_InstachkOffers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstachkOffers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01EBF9E6B313CEF90CC123EC37A490C /* Pods_InstachkOffers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InstachkOffers_Tests.framework; path = "Pods-InstachkOffers_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AEE6C0EEC3C020884CBEF2272A83EB /* Pods-InstachkOffers_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstachkOffers_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A4F0ED5408096F7CF564991C1296C806 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
 		C0041D48FD51F5A166E7F1405E543C75 /* Pods-InstachkOffers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstachkOffers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0D8047E0181548CE1AE8358E21EA3DE /* InstachkOffers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstachkOffers.xcconfig; sourceTree = "<group>"; };
 		C26A0B243CB683A14D1F4D353662D500 /* Pods-InstachkOffers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstachkOffers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5E1C0053E548252C347071A0BAD1D4A /* Pods-InstachkOffers_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstachkOffers_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C67FED28A76C9ADF31F108FAA7BE7C18 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67FED28A76C9ADF31F108FAA7BE7C18 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA7A388E564608E0E0604AA278356DD /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
-		DA48205D1551F78DEF26756D82AE47F4 /* Pods-InstachkOffers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-InstachkOffers_Tests.modulemap"; sourceTree = "<group>"; };
+		DA48205D1551F78DEF26756D82AE47F4 /* Pods-InstachkOffers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-InstachkOffers_Tests.modulemap"; sourceTree = "<group>"; };
 		DAD109D69C63A8F2CBDC5A7846218D22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC6E0E1D7C5E27E4ACCC209F0A00144A /* Pods-InstachkOffers_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstachkOffers_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E01F69ECB170070E118321B6823F0B3B /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Starscream.modulemap; sourceTree = "<group>"; };
+		E01F69ECB170070E118321B6823F0B3B /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Starscream.modulemap; sourceTree = "<group>"; };
 		EC3FB6096B84F2DD3CFFCDC04E118935 /* Pods-InstachkOffers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstachkOffers_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF4C12FD6833A24C152399ACB78FC74D /* InstachkOffers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstachkOffers-dummy.m"; sourceTree = "<group>"; };
 		F16592D1EBB55C54F7B3AEA65FB17208 /* Pods-InstachkOffers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstachkOffers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F25EE6B8EA00DF5A69ABD2C6A025BC0D /* AdDialogViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = AdDialogViewController.xib; sourceTree = "<group>"; };
 		F4833866964687753A0EF73B07676A3E /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		FA5B336EDA95C2FE561635CB0095BF4E /* AdDialogViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdDialogViewController.swift; sourceTree = "<group>"; };
+		FA7FD11F333370AB418B94DEDF49A3BB /* MessageListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MessageListener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,20 +115,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39FFD90B7DD1648D129074A9E21A73DB /* Frameworks */ = {
+		298CCE1315DF23B31CEAEEE9CF25B564 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24BB0ABC31929225ABC45B0FCB6F726 /* Foundation.framework in Frameworks */,
+				577EF9D6248D2F178ABAAAF29782E7B0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82B31B4AE0BB15F84110B0A56EC86697 /* Frameworks */ = {
+		7600966D8CC9FB0662C6941964BBE38C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC355EF3E94689F14D0A46F0A5B114D /* Foundation.framework in Frameworks */,
-				6EB429CB423E643F918DBC7A80CA9D90 /* Starscream.framework in Frameworks */,
+				4E9EA15E15A04BB132F6073A2806E7DE /* Foundation.framework in Frameworks */,
+				80273AC808B60D75B609D0F226DDA0CB /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,20 +155,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Starscream";
-			sourceTree = "<group>";
-		};
-		25ACEAEBCA7CD45FB30D0F4032F638DF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				41F8FBC71F286F1B004D6F60 /* Advertisement.swift */,
-				41F8FBC81F286F1B004D6F60 /* Extensions.swift */,
-				41F8FBC91F286F1B004D6F60 /* AdDialogViewController.xib */,
-				41F8FBCA1F286F1B004D6F60 /* AdDialogViewController.swift */,
-				41F8FBCB1F286F1B004D6F60 /* InstachkService.swift */,
-				41F8FBCC1F286F1B004D6F60 /* MessageListener.swift */,
-				41F8FBCD1F286F1B004D6F60 /* InstachkOffers.h */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		2E14B176992F280EC91EAAD42D5EC2F4 /* Support Files */ = {
@@ -229,6 +215,21 @@
 			path = "Target Support Files/Pods-InstachkOffers_Tests";
 			sourceTree = "<group>";
 		};
+		7BE012DF393CA4DD1EB6FB956BEDF538 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B336EDA95C2FE561635CB0095BF4E /* AdDialogViewController.swift */,
+				F25EE6B8EA00DF5A69ABD2C6A025BC0D /* AdDialogViewController.xib */,
+				104143BAE3AF3137B63A416BA58FD14E /* Advertisement.swift */,
+				5349D9A6402E1B38E9321E2B0154F707 /* Extensions.swift */,
+				51AF65AFB409DD59ABB7065056C2940C /* InstachkOffers.h */,
+				9083840DCC86AD24C959C214BC7EBB74 /* InstachkService.swift */,
+				FA7FD11F333370AB418B94DEDF49A3BB /* MessageListener.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -244,7 +245,7 @@
 		7EBF3E5965EB6386879A4A843FCF68B1 /* InstachkOffers */ = {
 			isa = PBXGroup;
 			children = (
-				E9CF6ED5CB4D839E180D48592A25B600 /* InstachkOffers */,
+				E765A81C581566502696E1736C92CD41 /* InstachkOffers */,
 				2E14B176992F280EC91EAAD42D5EC2F4 /* Support Files */,
 			);
 			name = InstachkOffers;
@@ -275,6 +276,7 @@
 				A4F0ED5408096F7CF564991C1296C806 /* WebSocket.swift */,
 				1010A70BFFFCC5E48DDA7A3D3BA5977B /* Support Files */,
 			);
+			name = Starscream;
 			path = Starscream;
 			sourceTree = "<group>";
 		};
@@ -298,11 +300,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E9CF6ED5CB4D839E180D48592A25B600 /* InstachkOffers */ = {
+		E765A81C581566502696E1736C92CD41 /* InstachkOffers */ = {
 			isa = PBXGroup;
 			children = (
-				25ACEAEBCA7CD45FB30D0F4032F638DF /* Classes */,
+				7BE012DF393CA4DD1EB6FB956BEDF538 /* Classes */,
 			);
+			name = InstachkOffers;
 			path = InstachkOffers;
 			sourceTree = "<group>";
 		};
@@ -317,12 +320,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26B382DECC11804FB16944C45D763398 /* Headers */ = {
+		1A6B2C3E6A51209F557D364127B9F289 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F8FBD31F286F1B004D6F60 /* InstachkOffers.h in Headers */,
-				79CCCA1299F71D89FB965C8D32D81894 /* InstachkOffers-umbrella.h in Headers */,
+				72BB20512AC0D1A0726CA799A991F36E /* InstachkOffers-umbrella.h in Headers */,
+				9AFA258EB2F567C8CB3217D31FCDF74C /* InstachkOffers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,11 +337,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		990B63EB5361B920AAAA5E253AC91129 /* Headers */ = {
+		96F23FC61C147D800AB93F8529586195 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AD56724DB9C70269EA10DAB3880134B /* Starscream-umbrella.h in Headers */,
+				DD4C9D4CD344DC62622F7BE27373C3E5 /* Starscream-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,31 +375,13 @@
 			productReference = 4C724669108AEFE634BE8F1EC4BD101B /* Pods_InstachkOffers_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		692D1C050B8A8EF1DE83380777AB2773 /* InstachkOffers */ = {
+		5AFA383A75463CEFC8D333C16C9493DA /* Starscream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3899C4D127687FBC2C32962761530753 /* Build configuration list for PBXNativeTarget "InstachkOffers" */;
+			buildConfigurationList = E25D75BE7BE696A5FD4E16AA28EF3399 /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
-				C4A37CB0FC1828CA8EEEBA5FF901C9A9 /* Sources */,
-				82B31B4AE0BB15F84110B0A56EC86697 /* Frameworks */,
-				26B382DECC11804FB16944C45D763398 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				33F917872C5518421A874051B38AAAD5 /* PBXTargetDependency */,
-			);
-			name = InstachkOffers;
-			productName = InstachkOffers;
-			productReference = 74A0DCF79A3250F5089B190DF2521271 /* InstachkOffers.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D760290E4CC4EA8B2592D095368E3764 /* Starscream */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F0C8B8846CC494FD7404CBBBCD94543 /* Build configuration list for PBXNativeTarget "Starscream" */;
-			buildPhases = (
-				56913AF0CCFBA12A351E5BBC42602E22 /* Sources */,
-				39FFD90B7DD1648D129074A9E21A73DB /* Frameworks */,
-				990B63EB5361B920AAAA5E253AC91129 /* Headers */,
+				3C5D03D35BD8A4057B1C42485A236DB4 /* Sources */,
+				298CCE1315DF23B31CEAEEE9CF25B564 /* Frameworks */,
+				96F23FC61C147D800AB93F8529586195 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -405,6 +390,24 @@
 			name = Starscream;
 			productName = Starscream;
 			productReference = C67FED28A76C9ADF31F108FAA7BE7C18 /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6584A195793896489AC7D8A9750CC2E5 /* InstachkOffers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7801EA0A218F68F65F9E0FE137EA6C /* Build configuration list for PBXNativeTarget "InstachkOffers" */;
+			buildPhases = (
+				8514BDB0DE663D21E22BEED858C5E098 /* Sources */,
+				7600966D8CC9FB0662C6941964BBE38C /* Frameworks */,
+				1A6B2C3E6A51209F557D364127B9F289 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C38D1EEFB028FBD2D7763975AA2B0E /* PBXTargetDependency */,
+			);
+			name = InstachkOffers;
+			productName = InstachkOffers;
+			productReference = 74A0DCF79A3250F5089B190DF2521271 /* InstachkOffers.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F6AE3DB5CEAD9497C3260AA8C87D080B /* Pods-InstachkOffers_Tests */ = {
@@ -445,10 +448,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				692D1C050B8A8EF1DE83380777AB2773 /* InstachkOffers */,
+				6584A195793896489AC7D8A9750CC2E5 /* InstachkOffers */,
 				4B6DD36302B3533C1D0DAF344D9A60EA /* Pods-InstachkOffers_Example */,
 				F6AE3DB5CEAD9497C3260AA8C87D080B /* Pods-InstachkOffers_Tests */,
-				D760290E4CC4EA8B2592D095368E3764 /* Starscream */,
+				5AFA383A75463CEFC8D333C16C9493DA /* Starscream */,
 			);
 		};
 /* End PBXProject section */
@@ -462,13 +465,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56913AF0CCFBA12A351E5BBC42602E22 /* Sources */ = {
+		3C5D03D35BD8A4057B1C42485A236DB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2361CD79F5A7E0BCAECA630056AD860 /* SSLSecurity.swift in Sources */,
-				32C080FE9D5E0A6DEF438CA9F46BEAB6 /* Starscream-dummy.m in Sources */,
-				1E92DE0D856A340148AE64143B4C01F7 /* WebSocket.swift in Sources */,
+				A8E8C2A596CF9BCAABD6BA412E46A0F4 /* SSLSecurity.swift in Sources */,
+				CF5FE71480F06163706E94B4C134DC3C /* Starscream-dummy.m in Sources */,
+				9FFD7B13ED80AE8858570E725B3D7900 /* WebSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,115 +483,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4A37CB0FC1828CA8EEEBA5FF901C9A9 /* Sources */ = {
+		8514BDB0DE663D21E22BEED858C5E098 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F8FBD81F28818C004D6F60 /* AdDialogViewController.xib in Sources */,
-				29FB7A5EEF0EC6128D0EDEF2E8BD1488 /* InstachkOffers-dummy.m in Sources */,
-				41F8FBCE1F286F1B004D6F60 /* Advertisement.swift in Sources */,
-				41F8FBD01F286F1B004D6F60 /* AdDialogViewController.swift in Sources */,
-				41F8FBD11F286F1B004D6F60 /* InstachkService.swift in Sources */,
-				41F8FBD21F286F1B004D6F60 /* MessageListener.swift in Sources */,
-				41F8FBCF1F286F1B004D6F60 /* Extensions.swift in Sources */,
+				D74CF852BC289AF0A66CF0AC63482F94 /* AdDialogViewController.swift in Sources */,
+				7007C3CEAED4C5EEE82DEA27D9AB3D93 /* AdDialogViewController.xib in Sources */,
+				A1DCD85A8B91DF79C28D7525FB9BD25A /* Advertisement.swift in Sources */,
+				A3F461BF2B853F8EA939AF859D79C634 /* Extensions.swift in Sources */,
+				94AC3D855E06EBDE5EA62ADE21ED97C0 /* InstachkOffers-dummy.m in Sources */,
+				78E9A1D42768274DD4D9C50CC7B998A5 /* InstachkService.swift in Sources */,
+				0F0B83909D3A85FF5346CBF027F712B1 /* MessageListener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		33F917872C5518421A874051B38AAAD5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Starscream;
-			target = D760290E4CC4EA8B2592D095368E3764 /* Starscream */;
-			targetProxy = 938EC0033C5DF75140C986B3EBFD8065 /* PBXContainerItemProxy */;
-		};
 		7DAB99A69800404DD72F2B65FCA12D2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = InstachkOffers;
-			target = 692D1C050B8A8EF1DE83380777AB2773 /* InstachkOffers */;
+			target = 6584A195793896489AC7D8A9750CC2E5 /* InstachkOffers */;
 			targetProxy = AC153ED17726229D83E0CE0EEFEC5CAB /* PBXContainerItemProxy */;
+		};
+		E2C38D1EEFB028FBD2D7763975AA2B0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 5AFA383A75463CEFC8D333C16C9493DA /* Starscream */;
+			targetProxy = 05EF4ECFEC890437918532C96295955E /* PBXContainerItemProxy */;
 		};
 		EAAD152A88DE5092BBB7E921278F8734 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Starscream;
-			target = D760290E4CC4EA8B2592D095368E3764 /* Starscream */;
+			target = 5AFA383A75463CEFC8D333C16C9493DA /* Starscream */;
 			targetProxy = 9E3D8286D3E120D594477977544D0769 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06BEECB0562B1D84FD3A6EAF0BF5095C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0041D48FD51F5A166E7F1405E543C75 /* Pods-InstachkOffers_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-InstachkOffers_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-InstachkOffers_Tests/Pods-InstachkOffers_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_InstachkOffers_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		09123FD65E17DDB30755051210897C15 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0D8047E0181548CE1AE8358E21EA3DE /* InstachkOffers.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/InstachkOffers/InstachkOffers-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/InstachkOffers/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/InstachkOffers/InstachkOffers.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = InstachkOffers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		32BED44B61CCD76919641F0E58E26DAB /* Debug */ = {
+		01931C5F030FA3EB4968C1D784B943C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4833866964687753A0EF73B07676A3E /* Starscream.xcconfig */;
 			buildSettings = {
@@ -623,7 +556,82 @@
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		0B7D9A79D200D307401254C67D1322D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA891A0A290EA2EFC5322331DC4525C /* Pods-InstachkOffers_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InstachkOffers_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstachkOffers_Tests/Pods-InstachkOffers_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InstachkOffers_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B968B6E187B2846D484C119270FC187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3FB6096B84F2DD3CFFCDC04E118935 /* Pods-InstachkOffers_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InstachkOffers_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstachkOffers_Example/Pods-InstachkOffers_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InstachkOffers_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -663,7 +671,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -671,16 +679,16 @@
 			};
 			name = Debug;
 		};
-		3BE23F817B7BD2577FB7D9739E43C829 /* Debug */ = {
+		4B96B16D9B99ECEA1F791B03ECBC5A0E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC3FB6096B84F2DD3CFFCDC04E118935 /* Pods-InstachkOffers_Example.debug.xcconfig */;
+			baseConfigurationReference = 9A71011DB56E7C17436B3DF47A8BB54F /* Pods-InstachkOffers_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -689,11 +697,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-InstachkOffers_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-InstachkOffers_Example/Pods-InstachkOffers_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -701,16 +709,49 @@
 				PRODUCT_NAME = Pods_InstachkOffers_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		660AA5715F782A4D71FE9EE2F9FF368B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4833866964687753A0EF73B07676A3E /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -746,7 +787,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -754,16 +795,16 @@
 			};
 			name = Release;
 		};
-		75F26194200DC73BCD8052626E30C5ED /* Release */ = {
+		CEA8AA0E016EAEA5DE356DB6CC6482B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AA891A0A290EA2EFC5322331DC4525C /* Pods-InstachkOffers_Tests.release.xcconfig */;
+			baseConfigurationReference = C0041D48FD51F5A166E7F1405E543C75 /* Pods-InstachkOffers_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -772,11 +813,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-InstachkOffers_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-InstachkOffers_Tests/Pods-InstachkOffers_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -788,81 +829,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		778571D096696A2960A42FAA32594C40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A71011DB56E7C17436B3DF47A8BB54F /* Pods-InstachkOffers_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-InstachkOffers_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-InstachkOffers_Example/Pods-InstachkOffers_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_InstachkOffers_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		89F93C3FD225842D97E9771710B1B4C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4833866964687753A0EF73B07676A3E /* Starscream.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Starscream;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D91ED6B16E8842FA9B3F747D9D6DAB05 /* Debug */ = {
+		F5B8ACFE3107941C1947A1DB4989E73D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0D8047E0181548CE1AE8358E21EA3DE /* InstachkOffers.xcconfig */;
 			buildSettings = {
@@ -897,23 +866,48 @@
 			};
 			name = Debug;
 		};
+		F63C85112CCE3947D4CCA52EE867F87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D8047E0181548CE1AE8358E21EA3DE /* InstachkOffers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InstachkOffers/InstachkOffers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InstachkOffers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InstachkOffers/InstachkOffers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = InstachkOffers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3899C4D127687FBC2C32962761530753 /* Build configuration list for PBXNativeTarget "InstachkOffers" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D91ED6B16E8842FA9B3F747D9D6DAB05 /* Debug */,
-				09123FD65E17DDB30755051210897C15 /* Release */,
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -921,17 +915,8 @@
 		39D6C7C800B91077CE337BBFCA3C6359 /* Build configuration list for PBXNativeTarget "Pods-InstachkOffers_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06BEECB0562B1D84FD3A6EAF0BF5095C /* Debug */,
-				75F26194200DC73BCD8052626E30C5ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4F0C8B8846CC494FD7404CBBBCD94543 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32BED44B61CCD76919641F0E58E26DAB /* Debug */,
-				89F93C3FD225842D97E9771710B1B4C7 /* Release */,
+				CEA8AA0E016EAEA5DE356DB6CC6482B3 /* Debug */,
+				0B7D9A79D200D307401254C67D1322D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -939,8 +924,26 @@
 		60B106928230805F84F3C45890B019BE /* Build configuration list for PBXNativeTarget "Pods-InstachkOffers_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BE23F817B7BD2577FB7D9739E43C829 /* Debug */,
-				778571D096696A2960A42FAA32594C40 /* Release */,
+				0B968B6E187B2846D484C119270FC187 /* Debug */,
+				4B96B16D9B99ECEA1F791B03ECBC5A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7801EA0A218F68F65F9E0FE137EA6C /* Build configuration list for PBXNativeTarget "InstachkOffers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B8ACFE3107941C1947A1DB4989E73D /* Debug */,
+				F63C85112CCE3947D4CCA52EE867F87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25D75BE7BE696A5FD4E16AA28EF3399 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01931C5F030FA3EB4968C1D784B943C2 /* Debug */,
+				660AA5715F782A4D71FE9EE2F9FF368B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -16,13 +16,13 @@ public class Advertisement: NSObject, MessageListener, AdDialogDelegate, UIScrol
     let AD_HEIGHT = 100
     
     // ad priorities
-    let PRIORTY_HIGH_INTERVAL = 8
-    let PRIORTY_STANDARD_INTERVAL = 4
-    let PAUSE_INTERVAL = 3 // slider pause interval
+    let PRIORTY_HIGH_INTERVAL = 30
+    let PRIORTY_STANDARD_INTERVAL = 15
+    let PAUSE_INTERVAL = 20 // slider pause interval
     var AUTO_SCROLL_INTERVAL: Int = 0
     
     // interval to show the carousel again once the cycle is over
-    let CAROUSEL_HIDDEN_INTERVAL = 20
+    let CAROUSEL_HIDDEN_INTERVAL = 900
     
     // carousel container
     var container: UIView! = nil
