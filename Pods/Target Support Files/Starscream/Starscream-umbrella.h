@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "InstachkOffers.h"
 
-FOUNDATION_EXPORT double InstachkOffersVersionNumber;
-FOUNDATION_EXPORT const unsigned char InstachkOffersVersionString[];
+FOUNDATION_EXPORT double StarscreamVersionNumber;
+FOUNDATION_EXPORT const unsigned char StarscreamVersionString[];
 

@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  InstachkOffers: dd23b8b261b03400e426f4311c0a4415c0207b4d
+  InstachkOffers: cfb293cd7ea91943d09e59e0e958983ee4a45876
   Starscream: df5974ee928b157c8eda8af8de7c620276b7dfcc
 
 PODFILE CHECKSUM: c29b413a0c6ac2f9922ef8b4cc80fe27731da3a6
