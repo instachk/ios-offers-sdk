@@ -17,9 +17,9 @@ Instachk offers SDK lets you display nearby offers
 
   s.source_files = 'InstachkOffers/Classes/**/*'
   
-  s.resource_bundles = {
-    'InstachkOffers' => ['InstachkOffers/Assets/*.png']
-  }
+  #s.resource_bundles = {
+   # 'InstachkOffers' => ['InstachkOffers/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
