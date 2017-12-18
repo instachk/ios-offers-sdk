@@ -196,7 +196,7 @@ class InstachkService : NSObject, WebSocketDelegate, CLLocationManagerDelegate {
                             print("Error in coupon activation!")
                         }else{
                             print("Coupon activated successfully!")
-                            self.delegate!.onCouponActivated(advertisement_id: advertisement_id)
+                            self.delegate!.onCouponActivated!(advertisement_id: advertisement_id)
                         }
                         
                         

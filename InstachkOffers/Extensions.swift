@@ -12,7 +12,10 @@ extension UIImageView {
     public func imageFromUrl(urlString: String) {
         if let url = URL(string: urlString) {
             let request = URLRequest(url: url)
-            NSURLConnection.sendAsynchronousRequest(request as URLRequest, queue: .main, completionHandler: { (response, data, error) in
+            
+            let session = URLSession.shared
+            let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
+
                 if let imageData = data as NSData? {
                     
                     self.autoresizingMask = [.flexibleTopMargin, .flexibleHeight, .flexibleRightMargin, .flexibleLeftMargin, .flexibleTopMargin, .flexibleWidth]
@@ -20,8 +23,10 @@ extension UIImageView {
                     self.contentMode = UIViewContentMode.scaleAspectFit
                     
                     let img = UIImage(data: imageData as Data)
-                    self.image = img                }
+                    self.image = img
+                }
             })
+            task.resume()
         }
     }
 }
