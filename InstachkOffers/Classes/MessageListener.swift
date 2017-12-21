@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol MessageListener {
-    func instachkOnMessageReceived(message : String);
-    func onCouponActivated(advertisement_id: Int)
+@objc protocol MessageListener {
+   @objc func instachkOnMessageReceived(message : String);
+   @objc func onCouponActivated(advertisement_id: Int)
 }
