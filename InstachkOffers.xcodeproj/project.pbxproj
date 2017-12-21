@@ -18,11 +18,13 @@
 		41A3FDED1F25BF8600A0BBA2 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A3FDEC1F25BF8600A0BBA2 /* Starscream.framework */; };
 		41A3FE331F26132800A0BBA2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A3FE321F26132800A0BBA2 /* Extensions.swift */; };
 		5DAD67EDE78840AEE4B8C40C /* Pods_InstachkOffersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C209945255E973B6F6D0289 /* Pods_InstachkOffersTests.framework */; };
-		6480FAD71FEB840A00CD06AF /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480FAD61FEB840A00CD06AF /* DealsViewController.swift */; };
-		6480FAD91FEB841100CD06AF /* DealsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480FAD81FEB841100CD06AF /* DealsCollectionViewCell.swift */; };
-		6480FADB1FEB841600CD06AF /* DealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480FADA1FEB841600CD06AF /* DealDetailsViewController.swift */; };
-		6480FADD1FEB841C00CD06AF /* Deals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6480FADC1FEB841C00CD06AF /* Deals.storyboard */; };
 		6480FADF1FEB842700CD06AF /* Deals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480FADE1FEB842700CD06AF /* Deals.swift */; };
+		6480FAEE1FEB8A1A00CD06AF /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480FAEC1FEB8A1A00CD06AF /* DealsViewController.swift */; };
+		6480FAEF1FEB8A1A00CD06AF /* DealsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6480FAED1FEB8A1A00CD06AF /* DealsViewController.xib */; };
+		6480FAF11FEB8AA300CD06AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6480FAF01FEB8AA300CD06AF /* Images.xcassets */; };
+		6480FAF81FEB8B7400CD06AF /* DealsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480FAF61FEB8B7400CD06AF /* DealsCollectionViewCell.swift */; };
+		6480FAF91FEB8B7400CD06AF /* DealsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6480FAF71FEB8B7400CD06AF /* DealsCollectionViewCell.xib */; };
+		6480FAFB1FEB8E2200CD06AF /* DealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480FAFA1FEB8E2200CD06AF /* DealDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +55,13 @@
 		41A3FE321F26132800A0BBA2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4DB49CEF1A155E5EA4296F0D /* Pods-InstachkOffers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstachkOffers.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstachkOffers/Pods-InstachkOffers.release.xcconfig"; sourceTree = "<group>"; };
 		5C209945255E973B6F6D0289 /* Pods_InstachkOffersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstachkOffersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6480FAD61FEB840A00CD06AF /* DealsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
-		6480FAD81FEB841100CD06AF /* DealsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsCollectionViewCell.swift; sourceTree = "<group>"; };
-		6480FADA1FEB841600CD06AF /* DealDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealDetailsViewController.swift; sourceTree = "<group>"; };
-		6480FADC1FEB841C00CD06AF /* Deals.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Deals.storyboard; sourceTree = "<group>"; };
 		6480FADE1FEB842700CD06AF /* Deals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deals.swift; sourceTree = "<group>"; };
+		6480FAEC1FEB8A1A00CD06AF /* DealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
+		6480FAED1FEB8A1A00CD06AF /* DealsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealsViewController.xib; sourceTree = "<group>"; };
+		6480FAF01FEB8AA300CD06AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6480FAF61FEB8B7400CD06AF /* DealsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsCollectionViewCell.swift; sourceTree = "<group>"; };
+		6480FAF71FEB8B7400CD06AF /* DealsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealsCollectionViewCell.xib; sourceTree = "<group>"; };
+		6480FAFA1FEB8E2200CD06AF /* DealDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealDetailsViewController.swift; sourceTree = "<group>"; };
 		6D65B451A619624BB7F51AB7 /* Pods-InstachkOffers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstachkOffers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstachkOffers/Pods-InstachkOffers.debug.xcconfig"; sourceTree = "<group>"; };
 		F61F09009C6FCF6CCF016D02 /* Pods-InstachkOffersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstachkOffersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstachkOffersTests/Pods-InstachkOffersTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,13 +116,15 @@
 				415DEDC51F25BC9300D5646A /* AdDialogViewController.swift */,
 				415DEDC61F25BC9300D5646A /* MessageListener.swift */,
 				6480FADE1FEB842700CD06AF /* Deals.swift */,
-				6480FAD61FEB840A00CD06AF /* DealsViewController.swift */,
-				6480FADA1FEB841600CD06AF /* DealDetailsViewController.swift */,
-				6480FADC1FEB841C00CD06AF /* Deals.storyboard */,
-				6480FAD81FEB841100CD06AF /* DealsCollectionViewCell.swift */,
 				415DED9B1F25BBBD00D5646A /* InstachkOffers.h */,
 				415DED9C1F25BBBD00D5646A /* Info.plist */,
 				41A3FE321F26132800A0BBA2 /* Extensions.swift */,
+				6480FAEC1FEB8A1A00CD06AF /* DealsViewController.swift */,
+				6480FAFA1FEB8E2200CD06AF /* DealDetailsViewController.swift */,
+				6480FAED1FEB8A1A00CD06AF /* DealsViewController.xib */,
+				6480FAF61FEB8B7400CD06AF /* DealsCollectionViewCell.swift */,
+				6480FAF71FEB8B7400CD06AF /* DealsCollectionViewCell.xib */,
+				6480FAF01FEB8AA300CD06AF /* Images.xcassets */,
 			);
 			path = InstachkOffers;
 			sourceTree = "<group>";
@@ -254,8 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6480FADD1FEB841C00CD06AF /* Deals.storyboard in Resources */,
+				6480FAF11FEB8AA300CD06AF /* Images.xcassets in Resources */,
+				6480FAEF1FEB8A1A00CD06AF /* DealsViewController.xib in Resources */,
 				415DEDCB1F25BC9300D5646A /* AdDialogViewController.xib in Resources */,
+				6480FAF91FEB8B7400CD06AF /* DealsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,15 +359,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6480FAF81FEB8B7400CD06AF /* DealsCollectionViewCell.swift in Sources */,
 				41A3FE331F26132800A0BBA2 /* Extensions.swift in Sources */,
 				6480FADF1FEB842700CD06AF /* Deals.swift in Sources */,
+				6480FAEE1FEB8A1A00CD06AF /* DealsViewController.swift in Sources */,
+				6480FAFB1FEB8E2200CD06AF /* DealDetailsViewController.swift in Sources */,
 				415DEDC81F25BC9300D5646A /* InstachkService.swift in Sources */,
-				6480FAD71FEB840A00CD06AF /* DealsViewController.swift in Sources */,
 				415DEDCD1F25BC9300D5646A /* MessageListener.swift in Sources */,
 				415DEDC71F25BC9300D5646A /* Advertisement.swift in Sources */,
-				6480FADB1FEB841600CD06AF /* DealDetailsViewController.swift in Sources */,
 				415DEDCC1F25BC9300D5646A /* AdDialogViewController.swift in Sources */,
-				6480FAD91FEB841100CD06AF /* DealsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
