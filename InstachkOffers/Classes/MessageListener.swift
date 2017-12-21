@@ -11,5 +11,5 @@ import UIKit
 @objc protocol MessageListener {
    @objc func instachkOnMessageReceived(message : String)
    optional @objc func onCouponActivated(advertisement_id: Int)
-   optional @objc func onCouponActivated(advertisement_id: Int)
+   optional @objc func onCouponActivated(deal_id: Int)
 }
