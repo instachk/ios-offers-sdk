@@ -2,19 +2,20 @@
 //  Deals.swift
 //  InstachkOffers
 //
-//  Created by Naresh on 18/12/17.
+//  Created by Naresh on 21/12/17.
+//  Copyright © 2017 Ravi Tamada. All rights reserved.
 //
 
 import UIKit
 
 public class Deals: NSObject,MessageListener {
-   
+    
     var deals = [[String: Any]]()
     var service : InstachkService?
     var partnerKey: String
     var container: UIView! = nil
     let settings = UserDefaults.standard
-
+    
     public init(container: UIView,partnerKey: String) {
         self.container = container
         self.partnerKey = partnerKey
@@ -42,31 +43,31 @@ public class Deals: NSObject,MessageListener {
                     return
             }
             
-           // if (json["type"] != nil && json["deals"] != nil && "new-deals" == json["type"] as! String) {
+            // if (json["type"] != nil && json["deals"] != nil && "new-deals" == json["type"] as! String) {
+            
+            // render new deals
+            if let deals = json["deals"] as? [[String: Any]] {
+                self.deals.removeAll()
+                self.deals = deals
                 
-                // render new deals
-                if let deals = json["deals"] as? [[String: Any]] {
-                    self.deals.removeAll()
-                    self.deals = deals
-                    
-                    
-                    let vc = DealsViewController(nibName: "DealsViewController", bundle: Bundle.init(for: DealsViewController.self))
-                    
-                    vc.modalPresentationStyle = .overCurrentContext
-                    vc.modalTransitionStyle = .crossDissolve
-
-                    self.container.parentViewController?.showDetailViewController(vc, sender: nil)
-
-                  //  UIApplication.shared.keyWindow?.rootViewController?.present(vc, animated: true, completion: nil)
-                    
-                    // store the ads in user defaults
-                    self.storeDeals()
-                    settings.synchronize()
-                }
-           // }
+                
+                let vc = DealsViewController(nibName: "DealsViewController", bundle: Bundle.init(for: DealsViewController.self))
+                
+                vc.modalPresentationStyle = .overCurrentContext
+                vc.modalTransitionStyle = .crossDissolve
+                
+                self.container.parentViewController?.showDetailViewController(vc, sender: nil)
+                
+                //  UIApplication.shared.keyWindow?.rootViewController?.present(vc, animated: true, completion: nil)
+                
+                // store the ads in user defaults
+                self.storeDeals()
+                settings.synchronize()
+            }
+            // }
         } catch  {
             print("Error parsing response 2 \(error.localizedDescription)")
-           // hideAds()
+            // hideAds()
             return
         }
     }
@@ -89,11 +90,11 @@ public class Deals: NSObject,MessageListener {
      */
     func getStoredDeals() {
         
-      storeDeals()
+        storeDeals()
         
-         do {
-              let dataold = UserDefaults.standard.data(forKey: "deals")
-              if(dataold == nil) {
+        do {
+            let dataold = UserDefaults.standard.data(forKey: "deals")
+            if(dataold == nil) {
                 return
             }
             
@@ -131,5 +132,5 @@ public class Deals: NSObject,MessageListener {
         }
         return nil
     }
-
+    
 }

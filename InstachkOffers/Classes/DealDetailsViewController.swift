@@ -21,13 +21,13 @@ class DealDetailsViewController: UIViewController {
     @IBOutlet weak var lblDay: UILabel!
     @IBOutlet weak var lblTermsAndConditions: UILabel!
     @IBOutlet weak var activateBtn: UIButton!
+    @IBOutlet weak var lblTime: UILabel!
     @IBOutlet weak var viewActivateDeal: UIView! {
         didSet {
             viewActivateDeal.isHidden = true
         }
     }
     @IBOutlet weak var imageViewActivateDeal: UIImageView!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +38,7 @@ class DealDetailsViewController: UIViewController {
     
     @IBAction func activateYesBtnClicked(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
-        self.delegate?.onActivateCouponConfirmed()
+       // self.delegate?.onActivateCouponConfirmed()
     }
     
     
