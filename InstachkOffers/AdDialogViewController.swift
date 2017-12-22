@@ -31,10 +31,6 @@ public class AdDialogViewController: UIViewController, UIGestureRecognizerDelega
         viewBackground.addGestureRecognizer(tap)
     }
     
-    public override func viewWillAppear(_ animated: Bool) {
-        
-    }
-    
     public override func viewDidAppear(_ animated: Bool) {
         self.view.superview?.backgroundColor = UIColor.clear
         self.view.superview?.isOpaque = false

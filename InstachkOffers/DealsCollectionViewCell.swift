@@ -10,12 +10,10 @@ import UIKit
 
 class DealsCollectionViewCell: UICollectionViewCell {
 
-    
-    @IBOutlet weak var viewDeals: UIView!
-    @IBOutlet weak var imageViewDeal: UIImageView!
-    @IBOutlet weak var lblNameDeal: UILabel!
-    @IBOutlet weak var lblDealDescription: UILabel!
-    
+    @IBOutlet  var viewDeals: UIView!
+    @IBOutlet  var imageViewDeal: UIImageView!
+    @IBOutlet  var lblNameDeal: UILabel!
+    @IBOutlet  var lblDealDescription: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

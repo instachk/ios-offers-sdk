@@ -10,7 +10,6 @@ import UIKit
 
 class DealDetailsViewController: UIViewController {
     
-    
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var dealDetailsView: UIView!
     @IBOutlet weak var imageViewDeal: UIImageView!

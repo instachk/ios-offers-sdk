@@ -50,15 +50,12 @@ public class Deals: NSObject,MessageListener {
                 self.deals.removeAll()
                 self.deals = deals
                 
-                
                 let vc = DealsViewController(nibName: "DealsViewController", bundle: Bundle.init(for: DealsViewController.self))
-                
-                vc.modalPresentationStyle = .overCurrentContext
-                vc.modalTransitionStyle = .crossDissolve
+                vc.dealsArr = deals
+              //  vc.modalPresentationStyle = .overCurrentContext
+              //  vc.modalTransitionStyle = .crossDissolve
                 
                 self.container.parentViewController?.showDetailViewController(vc, sender: nil)
-                
-                //  UIApplication.shared.keyWindow?.rootViewController?.present(vc, animated: true, completion: nil)
                 
                 // store the ads in user defaults
                 self.storeDeals()
@@ -67,7 +64,6 @@ public class Deals: NSObject,MessageListener {
             // }
         } catch  {
             print("Error parsing response 2 \(error.localizedDescription)")
-            // hideAds()
             return
         }
     }
