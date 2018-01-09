@@ -170,7 +170,8 @@ extension Deals : UICollectionViewDataSource,UICollectionViewDelegate {
         let cell = collectionView.cellForItem(at: indexPath)! as! DealsCollectionViewCell
         
         let vc = DealDetailsViewController(nibName: "DealDetailsViewController", bundle: Bundle.init(for: DealDetailsViewController.self))
-        
+       
+        dealsDictionary = deals[indexPath.row]
         let imageUrl = dealsDictionary["image_url"] as! String
         let strTerms = dealsDictionary["terms_and_conditions"] as! String
         let str1 = strTerms.replacingOccurrences(of: "<br/>", with:"\n" )
