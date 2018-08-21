@@ -1,3 +1,4 @@
+OBSOLERE - REPALCE WIT HNEW REPO
 # InstachkOffers
 
 [![CI Status](http://img.shields.io/travis/ravi8x@gmail.com/InstachkOffers.svg?style=flat)](https://travis-ci.org/ravi8x@gmail.com/InstachkOffers)
@@ -27,3 +28,7 @@ ravi8x@gmail.com, ravi8x@gmail.com
 ## License
 
 InstachkOffers is available under the MIT license. See the LICENSE file for more info.
+
+
+
+OBSOLERE - REPALCE WIT HNEW REPO
